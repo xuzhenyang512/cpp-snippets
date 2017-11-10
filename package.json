@@ -1,0 +1,30 @@
+{
+    "name": "xuzy-snippet",
+    "displayName": "xuzy-snippet",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "xuzy",
+    "engines": {
+        "vscode": "^1.18.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+				"language": "c",
+				"path": "./snippets/c_cpp_snippets.json"
+			},
+			{
+				"language": "cpp",
+				"path": "./snippets/c_cpp_snippets.json"
+			},
+			{
+				"language": "cpp",
+				"path": "./snippets/cpp_snippets.json"
+            }
+        ]
+    },
+    "icon": "images/cpp.png"
+}
